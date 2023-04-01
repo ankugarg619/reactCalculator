@@ -162,7 +162,7 @@ function fixTo(previousOperand,currentOperand,operation){
 
   if(operation == "÷"){
     if(decimalP == null){
-      return intC.length
+      return intC.length + 2
     }
     return decimalP.length + intC.length + 2
   }
